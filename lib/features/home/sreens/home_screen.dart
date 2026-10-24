@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
         toolbarHeight: 80,
       ),
       body: Column(
-        children: [MenuGrid(), Image.asset('assets/offfer_banner.png')],
+        children: [MenuGrid(), Image.asset('assets/images/offfer_banner.png')],
       ),
     );
   }

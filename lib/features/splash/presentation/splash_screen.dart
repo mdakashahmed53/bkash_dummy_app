@@ -1,4 +1,4 @@
-import 'package:bkash_dummy_app/features/home/sreens/home_screen.dart';
+import 'package:bkash_dummy_app/features/auth/presentation/login_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/app_colors.dart';
@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen>
     Future.delayed(Duration(seconds: 2), () {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => HomeScreen()),
+        MaterialPageRoute(builder: (context) => LoginScreen()),
       );
     });
   }
@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen>
           child: SizedBox(
             height: 100,
             width: 100,
-            child: Image.asset('assets/bkash_splash.png'),
+            child: Image.asset('assets/images/bkash_splash.png'),
           ),
         ),
       ),
